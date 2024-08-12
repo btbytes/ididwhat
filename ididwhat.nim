@@ -102,7 +102,7 @@ proc main() =
         lastUrl = info.url
         lastInsertTime = epochTime()
 
-      sleep(1000)  # Sleep for 1 second
+      sleep(1000) # Sleep for 1 second
   except:
     echo "Tracking stopped."
   finally:
